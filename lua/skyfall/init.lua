@@ -160,6 +160,11 @@ local function set_groups()
 		-- LspCodeLensSeparator = {},
 		-- LspSignatureActiveParameter = {},
 
+    -- IndentLine
+    IndentLine = { fg = colors.bgDarker },
+    IndentScope = { fg = colors.skyfall },
+    MiniIndentscopeSymbol = {fg = colors.skyfall },
+
 		DiagnosticError = { link = "Error" },
 		DiagnosticWarn = { link = "WarningMsg" },
 		DiagnosticInfo = { fg = colors.info },
