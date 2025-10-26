@@ -4,6 +4,7 @@ local utils = require("skyfall.utils")
 local bufferline = require("skyfall.integrations.bufferline")
 local cmp = require("skyfall.integrations.cmp")
 local telescope = require("skyfall.integrations.telescope")
+local picker = require("skyfall.integrations.picker")
 local theme = {} -- teste
 
 local function set_terminal_colors()
@@ -303,6 +304,7 @@ local function set_groups()
 	-- integrations
 	groups = vim.tbl_extend("force", groups, cmp.highlights())
 	groups = vim.tbl_extend("force", groups, telescope.highlights())
+  groups = vim.tbl_extend("force", groups, picker.highlights())
 
 	-- overrides
 	groups =

@@ -27,7 +27,7 @@ local colors = {
 
   -- keyword colors
   constant = "#505050",
-  string = "#505050",
+  string = "#5F7FFD",
   character = "#505050",
   number = theme.primary,
   boolean = theme.primary,
